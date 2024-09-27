@@ -1,14 +1,17 @@
 package com.mycompany.heroe1;
 
-public class Heroe1 {
+public class Heroe {
 
-    private int vidas = 3;
-    private int posicion = 0;
-    private String nombre = "";
-    private boolean saltando = false;
+    private int vidas;
+    private int posicion;
+    private String nombre;
+    private boolean saltando;
 
-    public Heroe1(String nombre) {
+    public Heroe(String nombre) {
         this.nombre = nombre;
+        this.vidas = 3;
+        this.posicion = 0;
+        this.saltando = false;
     }
 
     public int getVidas() {
@@ -49,4 +52,3 @@ public class Heroe1 {
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 }
-
