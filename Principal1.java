@@ -8,9 +8,9 @@ public class Principal1 {
         char tecla;
         Scanner sc = new Scanner(System.in);
         System.out.println("Ingrese el nombre de tu heroe:" );
-        String nameHero = sc.next();
+        String nombreHeroe = sc.next();
 
-        Heroe1 heroeElegido = new Heroe1(nameHero);
+        Heroe heroeElegido = new Heroe(nombreHeroe);
 
         System.out.println("Hola mi nombre es " + heroeElegido.getNombre());
         System.out.println("Usa d para moverte y w para saltar");
